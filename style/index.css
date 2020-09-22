@@ -1,0 +1,138 @@
+body { 
+    background-image: url(../images/blue-4145659_1920.jpg);
+    color: #253050;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    header {
+        background-color: rgb();
+        background-image: url(../images/palm-nav.png);
+        background-repeat: no-repeat;
+box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+border-radius: 20%;
+background-attachment: fixed;
+}
+
+.main-header{
+    display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+ul {list-style-type: none;}
+
+a:hover {;color: lightblue;}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #0A1B32;
+}
+
+.logo-pic {
+    width: 75px;
+    height: 75px;
+}
+
+h1 { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #0A1B32;}
+
+
+
+.sign-up {
+background-color: #253050;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 30%;
+  margin-left: 50px;
+  
+}
+
+.sign-in {
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+padding: 15px 32px;
+}
+
+.box1 {
+    display: flex;
+    opacity: 1;
+    width: auto;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icons {
+    margin: 12px;
+}
+
+    
+.button { padding: 10px;
+    background-color: gray;
+    font-weight: bold;
+    box-shadow: 4px 4px 2px 0px #333333;
+}
+
+a {
+    color:black ;
+    font-weight: bold
+}
+
+.text1 { 
+    background-color: gray;
+    margin-left: 10px ;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 2px 0px #333333;
+}
+
+
+p {
+    color:white;
+}
+
+.gray {
+    color: yellowgreen;
+}
+
+.container {
+    display: flex;
+    width: fit-content;
+}
+
+.navbar {display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 500px;
+}
+
+
+h2 {font-size: 50px;
+color: white;}
+
+.btn {display: flex;
+justify-content: space-around;
+width: 100px;
+}
